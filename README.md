@@ -27,7 +27,8 @@ Django Web Framework Application that allows you to manage users and they privil
 
 ## Plan
 
-- [ ] Creation of interacting scheme for 5 main elements
+- [X] Creation of interacting scheme for 5 main elements
+![alt text](https://github.com/solry/teleops/blob/master/files/schema/main-schema.png)
 - [ ] Choose platform for `TeleWebHook` web server:
   - CherryPy
   - Django
