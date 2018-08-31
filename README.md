@@ -5,16 +5,15 @@ Telegram bot application
 ## Structure
 
 #### 1. TeleWebHook
-Responsibilities:
  - Receiving updates (messages) from Telegram API services
  - Passing this messages to `TeleEngine`
   
 #### 2. TeleEngine
-Responsibilities:
  - Receiving updates from `TeleWebHook`
  - Perform authentication of users
  - Call external scripts
  - Leveraging `TeleDatabaseTools` for logging, authentication and other control
+ - Sending messages to users
  
 #### 3. TeleDatabaseTools
 Collection of tools that used by `TeleEngine` to interact with `TeleDatabase`
@@ -42,7 +41,7 @@ Django Web Framework Application that allows you to manage users and they privil
       - `TeleWebHook`, `TeleEngine`, `TeleDatabaseTools`
       - `TeleDatabase`
       - `TeleManager`
-  - Single application, which requires the user to install the database and application on the Kmachine barely
+  - Single application, which requires the user to install the database and application on the machine barely
 - [ ] Code `TeleWebHook`
 - [ ] Code `TeleDatabaseTools`
 - [ ] Code `TeleEngine`
