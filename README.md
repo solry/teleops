@@ -42,6 +42,7 @@ Django Web Framework Application that allows you to manage users and they privil
       - `TeleWebHook`, `TeleEngine`, `TeleDatabaseTools`
       - `TeleDatabase`
       - `TeleManager`
+  - Single application, which requires the user to install the database and application on the Kmachine barely
 - [ ] Code `TeleWebHook`
 - [ ] Code `TeleDatabaseTools`
 - [ ] Code `TeleEngine`
