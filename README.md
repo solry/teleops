@@ -30,18 +30,18 @@ Django Web Framework Application that allows you to manage users and they privil
 - [X] Creation of interacting scheme for 5 main elements:
 ![alt text](https://github.com/solry/teleops/blob/master/files/schema/main-schema.png)
 - [X] Choose platform for `TeleWebHook` web server:
-  - CherryPy
+  - **CherryPy**
   - Django
-  > CherryPy was choosen as the web server platform due to:
+  > **CherryPy** was choosen as the web server platform due to:
   > - lightweightness
-  > - familiarity for me
+  > - familiar for me
 - [ ] Choose way of interaction of `TeleManager` application and `TeleDatabase`:
   - Django Api
   - Python Class based 
 - [X] Figure out distribution model:
   - Docker Container:
     - Single container with `TeleEngine`, `TeleDatabase`, `TeleWebHook`, `TeleManager`
-    - 3 Dedicated container:
+    - **3 Dedicated container**:
       - `TeleWebHook`, `TeleEngine`, `TeleDatabaseTools`
       - `TeleDatabase`
       - `TeleManager`
