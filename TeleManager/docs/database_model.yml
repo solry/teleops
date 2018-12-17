@@ -1,0 +1,42 @@
+user:
+  id: int
+  first_name: varchar
+  last_name: varchar
+  login: varchar
+  organization_id: int  # organization.id
+  group_id: int         # group.id
+  role_id: int          # role.id
+
+organization:
+  id: int
+  name: varchar
+
+group:
+  id: int
+  name: varchar
+
+role:
+  id: int
+  name: varchar
+
+tg_user:
+  user_id: int          # user.id
+  tg_id: varchar
+
+command:
+  id: int
+  name: varchar
+  min_arg: int
+  max_arg: int
+  desctiption: varchar
+  long_command: bool
+  py_module: varchar
+  py_routine: varchar
+  to_log: bool
+  enabled: bool
+  detail_description: bool
+  interactive: bool
+
+role_command:
+  role_id: int          # role.id
+  command_id: int       # command.id
